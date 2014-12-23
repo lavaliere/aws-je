@@ -1,0 +1,68 @@
+# Thumbnails
+._*
+
+# The following ignores...
+# Miscellaneous Hudson litter
+*.log
+*.tmp
+*.old
+*.jar
+
+# Linux user files
+.Xauthority
+.bash_history
+.bash_profile
+.fontconfig
+.gitconfig
+.gem
+.lesshst
+.mysql_history
+.owner
+.ri
+.rvm
+.ssh
+.viminfo
+.vnc
+bin/
+tools/
+
+# Generated Hudson state
+**/.owner
+**/queue.xml
+**/fingerprints/**
+**/shelvedProjects/**
+**/updates/**
+**/jobs/*/workspace/**
+**/war/**
+
+# Tools that Hudson manages
+/tools/
+
+# Project specific stuff
+**/custom_deps/**
+**/slave/workspace/**
+**/slave-slave.log.*
+**/cache/**
+**/fingerprints/**
+**/elasticsearch/**
+
+# JEBC
+**/jgroups/**
+**/monitoring/**
+*~
+**/wars/**
+*.log
+*.zip
+*.rrd
+*.gz
+*.fdt
+*.war
+*.hpi
+*.jpi
+*.cfe
+*.si
+*.tim
+*.tip
+*.doc
+*.blm
+*.dvm
